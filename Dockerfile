@@ -17,5 +17,6 @@ CMD [ \
   "--listen=:3000", \
   "--public-addr=https://frisbii.fly.dev:443", \
   "--car=/app/data/random-words.car", \
+  "--car=/app/data/lorem-ipsum.car", \
   "--car=/app/data/asteroid-landing.car" \
   ]
