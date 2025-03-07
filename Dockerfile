@@ -1,6 +1,6 @@
 # syntax = docker/dockerfile:1
 
-FROM golang:1.21-alpine
+FROM golang:1.22-alpine
 WORKDIR /app
 
 ENV GOPATH=/app/go
@@ -17,5 +17,6 @@ CMD [ \
   "--listen=:3000", \
   "--public-addr=https://frisbii.fly.dev:443", \
   "--car=/app/data/random-words.car", \
+  "--car=/app/data/lorem-ipsum.car", \
   "--car=/app/data/asteroid-landing.car" \
   ]

@@ -46,6 +46,20 @@ Created using [go-car](https://github.com/ipld/go-car/):
 car create --file data/random-words.car --no-wrap data/random-words.txt
 ```
 
+### lorem ipsum
+
+https://frisbii.fly.dev/ipfs/bafkreie3lylqbp5fiwzfukckwqhzluv47p4eak2oa5736c76ih73tdgbou
+
+```
+bafkreie3lylqbp5fiwzfukckwqhzluv47p4eak2oa5736c76ih73tdgbou
+```
+
+Created using [go-car](https://github.com/ipld/go-car/):
+
+```sh
+car create --file data/lorem-ipsum.car --no-wrap data/lorem-ipsum.txt
+```
+
 ### video of asteroid landing
 
 https://frisbii.fly.dev/ipfs/bafybeih5zasorm4tlfga4ztwvm2dlnw6jxwwuvgnokyt3mjamfn3svvpyy
