@@ -4,7 +4,7 @@ FROM golang:1.22-alpine
 WORKDIR /app
 
 ENV GOPATH=/app/go
-RUN go install github.com/ipld/frisbii/cmd/frisbii@latest
+RUN go install github.com/ipld/frisbii/cmd/frisbii@master
 
 ADD entrypoint.sh entrypoint.sh
 ADD data data
