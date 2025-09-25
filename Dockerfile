@@ -1,10 +1,10 @@
 # syntax = docker/dockerfile:1
 
-FROM golang:1.22-alpine
+FROM golang:1.24-alpine
 WORKDIR /app
 
 ENV GOPATH=/app/go
-RUN go install github.com/ipld/frisbii/cmd/frisbii@master
+RUN go install github.com/ipld/frisbii/cmd/frisbii@latest
 
 ADD entrypoint.sh entrypoint.sh
 ADD data data
